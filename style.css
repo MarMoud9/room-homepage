@@ -1,0 +1,147 @@
+@import url('https://fonts.googleapis.com/css2?family=League+Spartan:wght@500;600;700&display=swap');
+
+*{
+    box-sizing: border-box;
+}
+body{
+    background-color: #fff;
+    height: 100vh;
+    margin: 0;
+    position: relative;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 40%;
+    position: absolute;
+    top: 5%;
+    left: 5%;
+    z-index: 10;
+}
+nav img{
+    padding: 20px;
+    width: 20%;
+    
+}
+.links{
+    width: 70%;
+}
+.links a{
+    font-family: 'League Spartan';
+    font-weight: 600;
+    color: #fff;
+    text-decoration: none;
+    padding: 20px;
+}
+.slider{
+    height: 65vh;
+    display: flex;
+}
+.slider-image{
+    height: 100%;
+    width: 65%;
+    background-image: url("images/desktop-image-hero-1.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    z-index: 2;
+    position: relative;
+}
+.slider-image img{
+    height: 100%;
+    width: 100%;
+    object-fit:contain;
+}
+.slider-text{
+    width: 50%;
+    background-color: #fff;
+    position: relative;
+    font-family: 'league spartan';
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    padding-left: 8%;
+    padding-top: 7%;
+    
+}
+.slider-text h1{
+    font-weight: 700;
+    width: 90%;
+    font-size: 45px;
+    margin: 0;
+    
+}
+.slider-text p {
+    color : hsl(0, 0%, 63%);
+    font-weight: 500;
+    width: 90%;
+    line-height: 1.5;
+}
+.slider-text a{
+    margin-top: 15px;
+    text-transform: uppercase;
+    text-decoration: none;
+    letter-spacing: 10px;
+    color: #000;
+}
+.arrows{
+    position: absolute;
+    background-color: #000;
+    left: 0;
+    bottom: 0;
+    width: 25%;
+    display: flex;
+    height: 15%;
+    align-items: center;
+    justify-content: center;
+}
+.arrows button{
+    cursor: pointer;
+    color: #fff;
+    background-color: #000;
+    margin: 0;
+    height: 100%;
+    width: 100%;
+    border: none;
+    padding: 0;
+    transition: .5s;
+}
+.arrows button:hover{
+
+    background-color: hsl(0, 0%, 27%);
+}
+section{
+    display: flex;
+    height: 35vh;
+}
+section img{
+    height: 100%;
+    width: 50%;
+}
+.image-dark{
+    width: 32%;
+    background: url("images/image-about-dark.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.image-light{
+    width: 33%;
+    background: url("images/image-about-light.jpg");
+}
+.text-furniture{
+    width: 35%;
+    background-color: #fff;
+    font-family: 'league spartan';
+    padding: 50px ;
+    
+}
+.text-furniture h1{
+    text-transform: uppercase;
+    letter-spacing: 5px;
+    font-size: 18px;
+}
+.text-furniture p {
+    color: hsl(0, 0%, 63%);
+    line-height: 1.5;
+}
